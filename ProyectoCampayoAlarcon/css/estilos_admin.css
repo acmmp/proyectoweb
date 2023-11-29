@@ -1,0 +1,165 @@
+*, *:before, *:after {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+    background:#bdc3c7;
+    line-height:1.5;
+    font-family: 'Roboto', sans-serif;
+    text-transform:uppercase;
+    font-size:16px;
+    color:#fff;
+}
+
+a{
+    text-decoration:none;
+    color:#fff
+}
+#header{
+    background:#1E262D;
+    width:100%;
+    position:relative;
+}
+
+#header:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+.logo{
+    float:left;
+    padding:26px 0 26px;
+}
+
+.logo a{
+    font-size:28px;
+    display:block;
+    padding:0 0 0 20px;
+}
+
+nav{
+    float:right;
+}
+
+nav>ul{
+    float:left;
+    position:relative;
+}
+
+nav li{
+    list-style:none;
+    float:left;
+}
+
+nav li a{
+    float:left;
+    padding:35px;
+}
+
+nav li a:hover{
+    background:#2C3E50;
+}
+
+nav li:hover ul{
+    display:inline;
+}
+
+nav li li
+{float:none;
+}
+
+nav .dropdown ul{
+    position:absolute;
+    left:0;top:100%;
+    background:#fff;
+    padding:20px 0;
+    border-bottom:3px solid #34495e;
+}
+
+@media only screen and (max-width: 1170px) {
+  nav >ul>li >a{padding:35px 15px}
+}
+@media only screen and (min-width: 960px) {
+  nav{display:block!important}
+}
+@media only screen and (max-width: 959px) {
+  nav{
+      display:none;
+      width:100%;
+      clear:both;
+      float:none;
+      max-height:400px;
+      overflow-y:scroll;
+    }
+
+  #menu-icon{
+      display:inline;
+      top:45px;
+      cursor:pointer;
+    }
+
+  #menu-icon.active .first
+  {transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    margin-top:10px;
+}
+
+  #menu-icon.active .second{
+      transform:rotate(135deg);
+      -webkit-transform:rotate(135deg);
+      position:relative;
+      top:-9px;
+    }
+}
+
+/* Tablas */
+
+
+  .tproductos{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  table{
+    width:100%;
+    table-layout: fixed;
+  }
+  .tbl-header{
+    background-color: #1E262D;
+   }
+  .tbl-content{
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid #fff;
+  }
+  th{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  td{
+    padding: 15px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
+  
+  section{
+    margin: 50px;
+  }

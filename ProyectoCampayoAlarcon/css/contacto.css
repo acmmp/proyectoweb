@@ -1,0 +1,30 @@
+
+
+#contacto {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.info-contacto, .horario-atencion {
+    margin-top: 20px;
+}
+
+.horario-atencion h3 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.horario-atencion p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+

@@ -1,0 +1,23 @@
+.testimonial-section {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center;
+    max-width: 800px; /* Ajusta el ancho máximo según tu diseño */
+    width: 100%;
+    margin: 0 auto; /* Esto centra la sección horizontalmente */
+  }
+
+  .testimonial-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .testimonial-author {
+    font-style: italic;
+    margin-top: 10px;
+  }
